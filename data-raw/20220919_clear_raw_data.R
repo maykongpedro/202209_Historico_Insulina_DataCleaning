@@ -81,7 +81,44 @@ tidied_data |>
                 string = conteudo_mensagem,
                 pattern = "[Rr][áa]pida") ~ TRUE,
             TRUE ~ FALSE
+        ),
+
+        # remover underlines adicionais
+        conteudo_mensagem = stringr::str_remove_all(
+            string = conteudo_mensagem,
+            pattern = "_ _ _+"
+        ),
+
+        # retirar espaços desnecessários
+        conteudo_mensagem = stringr::str_squish(conteudo_mensagem),
+
+        # extrair doses de insulina
+        doses_rapida = stringr::str_extract_all(
+            string = conteudo_mensagem,
+            pattern = "[0-9]+uni|[0-9]+u|[0-9]+_u",
+            simplify = TRUE
+        ),
+
+        # extrair horário
+        horario_aplicacao = stringr::str_extract_all(
+            string = conteudo_mensagem,
+            pattern = "[0-9]+:[0-9]+|[0-9]+h",
+            simplify = TRUE
+        ),
+
+        # extrair refeição da coluna de data
+        refeicao = stringr::str_extract_all(
+            string = data_mensagem,
+            pattern = "[:alpha:]+",
+            simplify = TRUE
+        ),
+
+        # apagar letras da coluna de data
+        data_mensagem = stringr::str_remove_all(
+            string = data_mensagem,
+            pattern = "[:alpha:]+"
         )
+
     ) |>
 
     viewxl::view_in_xl()
