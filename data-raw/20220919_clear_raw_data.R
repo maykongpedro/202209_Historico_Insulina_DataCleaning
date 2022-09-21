@@ -48,7 +48,7 @@ tidied_data <- raw_data |>
 
 # ver estrutura
 tidied_data |> dplyr::glimpse()
-tidied_data |> viewxl::view_in_xl()
+# tidied_data |> viewxl::view_in_xl()
 
 # Clear mensage column ----------------------------------------------------
 
@@ -158,11 +158,48 @@ tidied_data |>
         # extrair a glicemia
         glicemia = stringr::str_extract_all(
             string = conteudo_mensagem,
-            pattern = "[Gg]lice[_ ][0-9]+|[Gg]licemia[_ ][0-9]+",
+            pattern = "[Gg]lice[_ ][0-9]+|[Gg]licemia[_ ][0-9]+|[gG]lice[0-9]+",
             simplify = TRUE
         )
 
     ) |>
+
+    # remover itens que já identifiquei nas outras colunas
+    dplyr::mutate(
+
+        # remover refeições
+        conteudo_clean = stringr::str_remove_all(
+            string = conteudo_mensagem,
+            pattern = "[cC]af[eé]|[aA]lmo[cç]o|[Jj]ant[aA]"
+        ),
+
+        # remover tipo de insulina
+        conteudo_clean = stringr::str_remove_all(
+            string = conteudo_clean,
+            pattern = "[lL]antus|[rR][aá]pida"
+        ),
+
+        # remover horário de aplicação
+        conteudo_clean = stringr::str_remove_all(
+            string = conteudo_clean,
+            pattern = "[0-9]+:[0-9]+|[0-9]+h"
+        ),
+
+        # remover unidades de insulina aplicada
+        conteudo_clean = stringr::str_remove_all(
+            string = conteudo_clean,
+            pattern = "[0-9]+uni|[0-9]+u|[0-9]+_u"
+        ),
+
+        # remover glicemia
+        conteudo_clean = stringr::str_remove_all(
+            string = conteudo_clean,
+            pattern = "[Gg]lice[_ ][0-9]+|[Gg]licemia[_ ][0-9]+|[gG]lice[0-9]+"
+        )
+
+    ) |>
+
+
 
     viewxl::view_in_xl()
 
