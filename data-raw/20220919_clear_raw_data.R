@@ -18,13 +18,24 @@ tidied_data <- raw_data |>
         horario_mensagem = X2,
         usuario = X4,
     ) |>
-    # substituir NAs
     dplyr::mutate(
+
+        # converter tudo para caractere
+        dplyr::across(
+            .cols = dplyr::everything(),
+            .fns = as.character
+        ),
+
+        # substituir NAs
         dplyr::across(
             .cols = dplyr::everything(),
             .fns = tidyr::replace_na,
             replace = " "
-        )
+        ),
+
+        # ajustar tipo de dados
+        data_mensagem = lubridate::dmy(data_mensagem)
+
     ) |>
     # juntar mensagem completa
     tidyr::unite(
@@ -104,20 +115,20 @@ tidied_data |>
             string = conteudo_mensagem,
             pattern = "[0-9]+:[0-9]+|[0-9]+h",
             simplify = TRUE
-        ),
+        )
 
         # extrair refeição da coluna de data
-        refeicao = stringr::str_extract_all(
-            string = data_mensagem,
-            pattern = "[:alpha:]+",
-            simplify = TRUE
-        ),
+        # refeicao = stringr::str_extract_all(
+        #     string = data_mensagem,
+        #     pattern = "[:alpha:]+",
+        #     simplify = TRUE
+        # ),
 
         # apagar letras da coluna de data
-        data_mensagem = stringr::str_remove_all(
-            string = data_mensagem,
-            pattern = "[:alpha:]+"
-        )
+        # data_mensagem = stringr::str_remove_all(
+        #     string = data_mensagem,
+        #     pattern = "[:alpha:]+"
+        # )
 
     ) |>
 
