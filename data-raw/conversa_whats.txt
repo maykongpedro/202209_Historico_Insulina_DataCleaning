@@ -618,7 +618,7 @@
 28/06/2022 17:40 - Digníssima: <Arquivo de mídia oculto>
 29/06/2022 09:25 - Digníssima: janta 62 7uni
 29/06/2022 09:25 - Digníssima: 29/06
-café glice 79 6uni
+29/06/2022 09:25 - Digníssima: café glice 79 6uni
 29/06/2022 13:05 - Digníssima: almoço glice 230 8uni
 29/06/2022 20:02 - Digníssima: Lanche glice 369 11unu
 29/06/2022 20:02 - Digníssima: Uni*
@@ -651,8 +651,8 @@ café glice 79 6uni
 01/07/2022 18:40 - Maykon Gabriel: altinha de novo haha
 01/07/2022 20:47 - Digníssima: Janta glice 157 6uni
 02/07/2022 19:21 - Digníssima: Café glice 273 10uni
-Almoço glice 86 6uni
-Lanche glice 66 6uni
+02/07/2022 19:21 - Digníssima: Almoço glice 86 6uni
+02/07/2022 19:21 - Digníssima: Lanche glice 66 6uni
 03/07/2022 10:11 - Digníssima: janta glice 142 6uni
 03/07/2022 10:11 - Digníssima: café glice 146 8uni
 03/07/2022 13:25 - Digníssima: Almoço glice 49 6uni
@@ -680,14 +680,14 @@ Lanche glice 66 6uni
 06/07/2022 21:32 - Digníssima: Lanche glice 229 7uni
 06/07/2022 21:33 - Digníssima: Jantar glice 92 6uni
 10/07/2022 15:03 - Digníssima: 09/07
-Café glice 148 7uni
-Almoço glice 222 10uni
-Lanche glice 188 12uni
-Jantar glice 203 8uni
+10/07/2022 15:03 - Digníssima: Café glice 148 7uni
+10/07/2022 15:03 - Digníssima: Almoço glice 222 10uni
+10/07/2022 15:03 - Digníssima: Lanche glice 188 12uni
+10/07/2022 15:03 - Digníssima: Jantar glice 203 8uni
 10/07/2022 15:04 - Digníssima: Café glice 184 9uni
-Almoço glice 150 8uni
+10/07/2022 15:04 - Digníssima: Almoço glice 150 8uni
 10/07/2022 21:52 - Digníssima: Lanche glice 198 9uni
-Janta glice 202 8uni
+10/07/2022 21:52 - Digníssima:Janta glice 202 8uni
 11/07/2022 08:17 - Digníssima: Meia noite hipo 69
 11/07/2022 08:17 - Digníssima: Café glice 255 12uni
 11/07/2022 12:17 - Digníssima: Almoço glice 92 6uni
@@ -794,64 +794,61 @@ Janta glice 202 8uni
 25/07/2022 22:04 - Maykon Gabriel: Niceee
 26/07/2022 07:10 - Digníssima: Hehw
 26/07/2022 21:52 - Digníssima: Café glice 182 5uni
-Almoço glice 236 7uni
-Lanche glice 157 4uni
-Janta glice 165 5uni
+26/07/2022 21:52 - Digníssima: Almoço glice 236 7uni
+26/07/2022 21:52 - Digníssima: Lanche glice 157 4uni
+26/07/2022 21:52 - Digníssima: Janta glice 165 5uni
 26/07/2022 21:56 - Maykon Gabriel: top
 26/07/2022 21:56 - Maykon Gabriel: Sua glice tá boa, né
 26/07/2022 22:03 - Digníssima: Tá simm
 26/07/2022 22:03 - Digníssima: Ihu
 26/07/2022 22:05 - Maykon Gabriel: nicereeee
 27/07/2022 22:20 - Digníssima: Café glice 180 5uni
-Almoço glice 236 7uni
-Lanche glice 197 5uni
-Jantar glice 209 5uni
+27/07/2022 22:20 - Digníssima: Almoço glice 236 7uni
+27/07/2022 22:20 - Digníssima: Lanche glice 197 5uni
+27/07/2022 22:20 - Digníssima: Jantar glice 209 5uni
 28/07/2022 08:33 - Digníssima: hipoglicemia as 1h glice 61
 28/07/2022 08:33 - Digníssima: café glice 137 4uni
 28/07/2022 10:09 - Maykon Gabriel: Tava uns dias sem ter né, cadimia rendeu hahaha
 28/07/2022 11:05 - Digníssima: simm
 28/07/2022 11:05 - Digníssima: pois é hahaha
 28/07/2022 21:53 - Digníssima: Almoço glice 188 6uni
-Lanche glice 230 7uni
-Jantar glice 91 4uni
+28/07/2022 21:53 - Digníssima: Lanche glice 230 7uni
+28/07/2022 21:53 - Digníssima: Jantar glice 91 4uni
 28/07/2022 22:04 - Maykon Gabriel: Cadê caféeee
 28/07/2022 22:12 - Digníssima: Aquii
 28/07/2022 22:13 - Maykon Gabriel: nice, sorry
 28/07/2022 22:13 - Digníssima: No problem bb
 30/07/2022 14:05 - Digníssima: 29/07
-Café glice glice 136 4uni
-Almoço glice 164 5uni
-Café glice 286 7uni
-Janta glice 199 6uni
-
-30/07
-Café glice 203 6uni
-Almoço glice 77 6uni
+30/07/2022 14:05 - Digníssima: Café glice glice 136 4uni
+30/07/2022 14:05 - Digníssima: Almoço glice 164 5uni
+30/07/2022 14:05 - Digníssima: Café glice 286 7uni
+30/07/2022 14:05 - Digníssima: Janta glice 199 6uni
+30/07/2022 14:05 - Digníssima: 30/07
+30/07/2022 14:05 - Digníssima: Café glice 203 6uni
+30/07/2022 14:05 - Digníssima: Almoço glice 77 6uni
 31/07/2022 16:42 - Digníssima: Lanche 206 6uni
-Janta 106 3uni
+31/07/2022 16:42 - Digníssima: Janta 106 3uni
 31/07/2022 16:43 - Digníssima: 31/07
-Café 247 7uni
-Almoço 161 7uni
+31/07/2022 16:43 - Digníssima: Café 247 7uni
+31/07/2022 16:43 - Digníssima: Almoço 161 7uni
 31/07/2022 18:34 - Digníssima: Lanche glice 284 8uni
 31/07/2022 21:38 - Digníssima: Janta glice 207 7uni
 01/08/2022 10:04 - Digníssima: Café glice 80 4uni
 01/08/2022 13:19 - Digníssima: almoço glice 184 6uni
 02/08/2022 13:42 - Digníssima: Lanche glice 240 8uni
-Jantar glice 156 6uni
+02/08/2022 13:42 - Digníssima: Jantar glice 156 6uni
 02/08/2022 13:42 - Digníssima: Café glice 110 4uni
-Almoço glice 131 6uni
+02/08/2022 13:42 - Digníssima: Almoço glice 131 6uni
 02/08/2022 19:57 - Digníssima: Lanche glice 188 6uni
 04/08/2022 12:56 - Digníssima: Jantar glice 111 6uni
-
-Dia 03/08
-Café glice 245 7uni
-Almoço glice 253 7uni
-Lanche glice 180 6uni
-Janta glice 112 4uni
-
-Dia 04/08
-Café glice 119 4uni
-Almoço glice 168 5uni
+04/08/2022 12:56 - Digníssima: Dia 03/08
+04/08/2022 12:56 - Digníssima: Café glice 245 7uni
+04/08/2022 12:56 - Digníssima: Almoço glice 253 7uni
+04/08/2022 12:56 - Digníssima: Lanche glice 180 6uni
+04/08/2022 12:56 - Digníssima: Janta glice 112 4uni
+04/08/2022 12:56 - Digníssima: Dia 04/08
+04/08/2022 12:56 - Digníssima: Café glice 119 4uni
+04/08/2022 12:56 - Digníssima: Almoço glice 168 5uni
 04/08/2022 13:33 - Maykon Gabriel: uau, achei q não veria o lançamento mas ele veiooo
 04/08/2022 13:33 - Digníssima: Hahahahahaha
 04/08/2022 13:33 - Digníssima: Sim
@@ -870,45 +867,40 @@ Almoço glice 168 5uni
 04/08/2022 17:56 - Maykon Gabriel: os dias de academia talvez compense tomar um pouco menos de rápida no almoço ou comer mais né HAHHAA
 04/08/2022 17:56 - Digníssima: Hahaha si
 06/08/2022 13:04 - Digníssima: 04/08
-Jantar glice 54 3unu
-
-05/08
-5h da manhã glice 93
-Café glice 135 5uni 
-Almoço glice 118 6uni
-Lanche glice 157 5uni
-Jantar glice 174 5uni
-
-06/08
-Café glice 193 6uni
+06/08/2022 13:04 - Digníssima: Jantar glice 54 3unu
+06/08/2022 13:04 - Digníssima: 05/08
+06/08/2022 13:04 - Digníssima: 5h da manhã glice 93
+06/08/2022 13:04 - Digníssima: Café glice 135 5uni 
+06/08/2022 13:04 - Digníssima: Almoço glice 118 6uni
+06/08/2022 13:04 - Digníssima: Lanche glice 157 5uni
+06/08/2022 13:04 - Digníssima: Jantar glice 174 5uni
+06/08/2022 13:04 - Digníssima: 06/08
+06/08/2022 13:04 - Digníssima: Café glice 193 6uni
 08/08/2022 07:35 - Digníssima: 06/08
-Almoço glice 155 5uni
-Lanche glice 127 5uni
-Jantar glice 104 4uni
-
-07/08
-Café glice 110 4uni
-Almoço glice 131 6uni
-Lanche glice 146 7uni
-Jantar glice 179 6uni
+08/08/2022 07:35 - Digníssima: Almoço glice 155 5uni
+08/08/2022 07:35 - Digníssima: Lanche glice 127 5uni
+08/08/2022 07:35 - Digníssima: Jantar glice 104 4uni
+08/08/2022 07:35 - Digníssima: 07/08
+08/08/2022 07:35 - Digníssima: Café glice 110 4uni
+08/08/2022 07:35 - Digníssima: Almoço glice 131 6uni
+08/08/2022 07:35 - Digníssima: Lanche glice 146 7uni
+08/08/2022 07:35 - Digníssima: Jantar glice 179 6uni
 08/08/2022 07:36 - Digníssima: Café 139 4uni
 08/08/2022 13:01 - Digníssima: almoço glice 186 6uni
 10/08/2022 08:20 - Digníssima: Mensagem apagada
 10/08/2022 08:34 - Digníssima: 08/08
-lanche glice 228 7uni
-janta glice 156 5uni
-
-09/08
-café glice 168 5uni
-almoço glice 152 5uni
-lanche glice 145 5uni
-janta glice 228 7uni
-
-10/08
-café glice 91 4uni
+10/08/2022 08:34 - Digníssima: lanche glice 228 7uni
+10/08/2022 08:34 - Digníssima: janta glice 156 5uni
+10/08/2022 08:34 - Digníssima: 09/08
+10/08/2022 08:34 - Digníssima: café glice 168 5uni
+10/08/2022 08:34 - Digníssima: almoço glice 152 5uni
+10/08/2022 08:34 - Digníssima: lanche glice 145 5uni
+10/08/2022 08:34 - Digníssima: janta glice 228 7uni
+10/08/2022 08:34 - Digníssima: 10/08
+10/08/2022 08:34 - Digníssima: café glice 91 4uni
 10/08/2022 22:46 - Digníssima: Almoço glice 87 5uni
-Lanche glice 214 8uni
-Jantar glice 175 7uni
+10/08/2022 22:46 - Digníssima: Lanche glice 214 8uni
+10/08/2022 22:46 - Digníssima: Jantar glice 175 7uni
 10/08/2022 22:56 - Maykon Gabriel: só queria dizer que me alegra o coração ver a ausência de hipos fortes nesses lançamentos
 10/08/2022 22:56 - Maykon Gabriel: mais saúde pro meu bbzitoooo
 10/08/2022 22:56 - Maykon Gabriel: <Arquivo de mídia oculto>
@@ -920,15 +912,15 @@ Jantar glice 175 7uni
 11/08/2022 09:39 - Maykon Gabriel: <Arquivo de mídia oculto>
 11/08/2022 13:15 - Digníssima: Almoço glice 156 6uni
 11/08/2022 21:57 - Digníssima: Lanche glice 215 6uni
-Janta glice 116 8uni
+11/08/2022 21:57 - Digníssima: Janta glice 116 8uni
 12/08/2022 09:56 - Digníssima: Café glice 90 5uni
 12/08/2022 13:21 - Digníssima: almoço glice 140 5uni
 12/08/2022 20:49 - Digníssima: Lanche glice 204 7uni
-Janta glice 217 7uni
+12/08/2022 20:49 - Digníssima: Janta glice 217 7uni
 13/08/2022 22:11 - Digníssima: Café glice 102 4uni
-Almoço glice 140 5uni
-Lanche glice 316 9uni
-Janta glice 100 3uni
+13/08/2022 22:11 - Digníssima: Almoço glice 140 5uni
+13/08/2022 22:11 - Digníssima: Lanche glice 316 9uni
+13/08/2022 22:11 - Digníssima: Janta glice 100 3uni
 14/08/2022 10:23 - Digníssima: Hipoglicemia as 6:40 glice 39
 14/08/2022 10:23 - Digníssima: Turururu hahah
 14/08/2022 10:23 - Digníssima: Café glice 110 4uni
@@ -959,60 +951,54 @@ Janta glice 100 3uni
 14/08/2022 12:39 - Maykon Gabriel: fico muito feliz tmb
 14/08/2022 12:39 - Digníssima: ❤️
 15/08/2022 21:22 - Digníssima: 14/08
-Almoço glice 138 4uni
-Lanche glice 185 6uni
-Janta glice 190 6uni
-
-15/08
-Café glice 136 5uni
-Almoço glice 121 5uni
-Lanche glice 156 6uni
-Janta glice 245 6uni
+15/08/2022 21:22 - Digníssima: Almoço glice 138 4uni
+15/08/2022 21:22 - Digníssima: Lanche glice 185 6uni
+15/08/2022 21:22 - Digníssima: Janta glice 190 6uni
+15/08/2022 21:22 - Digníssima: 15/08
+15/08/2022 21:22 - Digníssima: Café glice 136 5uni
+15/08/2022 21:22 - Digníssima: Almoço glice 121 5uni
+15/08/2022 21:22 - Digníssima: Lanche glice 156 6uni
+15/08/2022 21:22 - Digníssima: Janta glice 245 6uni
 15/08/2022 21:24 - Maykon Gabriel: <Arquivo de mídia oculto>
 15/08/2022 21:53 - Digníssima: ❤️
 17/08/2022 11:58 - Digníssima: Mensagem apagada
 17/08/2022 12:00 - Digníssima: 16/08
-hipoglicemia 00:40 glice 54
-café glice 143 4uni
-almoço glice 163 5uni
-lanche glice 136 5uni
-jantar glice 145 5uni
-
-17/08
-café glice 63 3uni
+17/08/2022 12:00 - Digníssima: hipoglicemia 00:40 glice 54
+17/08/2022 12:00 - Digníssima: café glice 143 4uni
+17/08/2022 12:00 - Digníssima: almoço glice 163 5uni
+17/08/2022 12:00 - Digníssima: lanche glice 136 5uni
+17/08/2022 12:00 - Digníssima: jantar glice 145 5uni
+17/08/2022 12:00 - Digníssima: 17/08
+17/08/2022 12:00 - Digníssima: café glice 63 3uni
 17/08/2022 13:27 - Digníssima: Almoço glice 162 6uni
 17/08/2022 19:01 - Digníssima: lanche glice 212 6uni
 18/08/2022 08:37 - Digníssima: janta 190 6uni
 18/08/2022 08:38 - Digníssima: 18/08 
-café glice 152 5uni
+18/08/2022 08:38 - Digníssima: café glice 152 5uni
 20/08/2022 09:45 - Digníssima: Almoço glice 143 5unu
-Lanche glice 231 7uni
-Janta glice 200 6uni
-
-19/08
-Café glice 70 4uni
-Almoço glice 195 6uni
-Lanche glice 154 5uni
-Janta glice 107 3uni
-
-20/08 
-Café glice 186 5uni
+20/08/2022 09:45 - Digníssima: Lanche glice 231 7uni
+20/08/2022 09:45 - Digníssima: Janta glice 200 6uni
+20/08/2022 09:45 - Digníssima: 19/08
+20/08/2022 09:45 - Digníssima: Café glice 70 4uni
+20/08/2022 09:45 - Digníssima: Almoço glice 195 6uni
+20/08/2022 09:45 - Digníssima: Lanche glice 154 5uni
+20/08/2022 09:45 - Digníssima: Janta glice 107 3uni
+20/08/2022 09:45 - Digníssima: 20/08 
+20/08/2022 09:45 - Digníssima: Café glice 186 5uni
 22/08/2022 22:02 - Digníssima: Almoço glice 122 5uni
-Lanche glice 223 7uni
-Janta glice 119 4uni
-
-21/08
-Café glice 89 4uni
-Almoço glice 165 7uni
-Lanche glice 119 7uni
-Janta glice 144 4uni
-
-22/08
-91 as 2:40
-Café glice 140 5uni
-Almoço glice 184 6uni
-Lanche glice 223 8uni
-Janta glice 178 7uni
+22/08/2022 22:02 - Digníssima: Lanche glice 223 7uni
+22/08/2022 22:02 - Digníssima: Janta glice 119 4uni
+22/08/2022 22:02 - Digníssima: 21/08
+22/08/2022 22:02 - Digníssima: Café glice 89 4uni
+22/08/2022 22:02 - Digníssima: Almoço glice 165 7uni
+22/08/2022 22:02 - Digníssima: Lanche glice 119 7uni
+22/08/2022 22:02 - Digníssima: Janta glice 144 4uni
+22/08/2022 22:02 - Digníssima: 22/08
+22/08/2022 22:02 - Digníssima: 91 as 2:40
+22/08/2022 22:02 - Digníssima: Café glice 140 5uni
+22/08/2022 22:02 - Digníssima: Almoço glice 184 6uni
+22/08/2022 22:02 - Digníssima: Lanche glice 223 8uni
+22/08/2022 22:02 - Digníssima: Janta glice 178 7uni
 22/08/2022 22:08 - Maykon Gabriel: aaaaa q felicidade com esse histórico  top de glicemiaaa
 22/08/2022 22:08 - Maykon Gabriel: <Arquivo de mídia oculto>
 22/08/2022 22:08 - Maykon Gabriel: <Arquivo de mídia oculto>
@@ -1025,14 +1011,13 @@ Janta glice 178 7uni
 22/08/2022 22:15 - Digníssima: Nenen né hahah
 22/08/2022 22:15 - Maykon Gabriel: siiii
 24/08/2022 13:05 - Digníssima: 23/08
-café glice 273 8nui
-almoço glice 245 8uni
-lanche glice 217 7uni
-janta glice 199 6uni
-
-24/08
-café glice 139 5uni
-almoço glice 141 6uni
+24/08/2022 13:05 - Digníssima: café glice 273 8nui
+24/08/2022 13:05 - Digníssima: almoço glice 245 8uni
+24/08/2022 13:05 - Digníssima: lanche glice 217 7uni
+24/08/2022 13:05 - Digníssima: janta glice 199 6uni
+24/08/2022 13:05 - Digníssima: 24/08
+24/08/2022 13:05 - Digníssima: café glice 139 5uni
+24/08/2022 13:05 - Digníssima: almoço glice 141 6uni
 24/08/2022 13:05 - Digníssima: ontem tava locona haha
 24/08/2022 13:53 - Maykon Gabriel: hahahaha mesmo o locona de agora é bem melhor q o locona de outros tempos HAHAH
 24/08/2022 13:53 - Maykon Gabriel: É q logo vc menstrua né
@@ -1050,82 +1035,74 @@ almoço glice 141 6uni
 26/08/2022 19:36 - Maykon Gabriel: HUDADHS
 26/08/2022 19:36 - Maykon Gabriel: <Arquivo de mídia oculto>
 26/08/2022 19:56 - Digníssima: 24/08 
-Janta glice 154 5uni
-
-25/08
-Café glice 168 5uni
-Almoço glice 142 6uni
-Lanche glice 148 6uni
-Janta glice 91 4uni
-
-26/08
-Café glice 183 6uni
-Almoço glice 51 4uni
-Lanche glice 187 8uni
+26/08/2022 19:56 - Digníssima: Janta glice 154 5uni
+26/08/2022 19:56 - Digníssima: 25/08
+26/08/2022 19:56 - Digníssima: Café glice 168 5uni
+26/08/2022 19:56 - Digníssima: Almoço glice 142 6uni
+26/08/2022 19:56 - Digníssima: Lanche glice 148 6uni
+26/08/2022 19:56 - Digníssima: Janta glice 91 4uni
+26/08/2022 19:56 - Digníssima: 26/08
+26/08/2022 19:56 - Digníssima: Café glice 183 6uni
+26/08/2022 19:56 - Digníssima: Almoço glice 51 4uni
+26/08/2022 19:56 - Digníssima: Lanche glice 187 8uni
 27/08/2022 19:39 - Digníssima: Café glice 91 4uni
-Almoço glice 240 8uni
-Lanche glice 108 4uni
+27/08/2022 19:39 - Digníssima: Almoço glice 240 8uni
+27/08/2022 19:39 - Digníssima: Lanche glice 108 4uni
 28/08/2022 14:47 - Digníssima: Janta glice 199 6uni
-
-28/08 
-Café glice 140 5uni
-Almoço glive 106 4uni
+28/08/2022 14:47 - Digníssima: 28/08 
+28/08/2022 14:47 - Digníssima: Café glice 140 5uni
+28/08/2022 14:47 - Digníssima: Almoço glive 106 4uni
 30/08/2022 13:24 - Digníssima: Lanche glice 217 6uni
-Janta glice 278 8uni
-
-29/08
-Café glice 162 6uni
-Almoço glice 138 5uni
-Lanche glice 201 8uni
-Janta glice 213 6uni
-
-30/08
-Café glice 285 8uni
-Almoço gicle 156 6uni
+30/08/2022 13:24 - Digníssima: Janta glice 278 8uni
+30/08/2022 13:24 - Digníssima: 29/08
+30/08/2022 13:24 - Digníssima: Café glice 162 6uni
+30/08/2022 13:24 - Digníssima: Almoço glice 138 5uni
+30/08/2022 13:24 - Digníssima: Lanche glice 201 8uni
+30/08/2022 13:24 - Digníssima: Janta glice 213 6uni
+30/08/2022 13:24 - Digníssima: 30/08
+30/08/2022 13:24 - Digníssima: Café glice 285 8uni
+30/08/2022 13:24 - Digníssima: Almoço gicle 156 6uni
 01/09/2022 21:11 - Digníssima: 30/08 
-Lanche glice 187 6uni
-Janta glice 259 7uni
-
-31/08
-Café glice 137 5uni
-Almoço glice 225 7uni
-Lanche glice 214 6uni
-Jantar glice 95 4uni
-
-01/09
-Café glice 89 4uni
-Almoço glice 219 7uni
-Lanche glice 79 4uni
-Janta glice 126 5uni
+01/09/2022 21:11 - Digníssima: Lanche glice 187 6uni
+01/09/2022 21:11 - Digníssima: Janta glice 259 7uni
+01/09/2022 21:11 - Digníssima: 31/08
+01/09/2022 21:11 - Digníssima: Café glice 137 5uni
+01/09/2022 21:11 - Digníssima: Almoço glice 225 7uni
+01/09/2022 21:11 - Digníssima: Lanche glice 214 6uni
+01/09/2022 21:11 - Digníssima: Jantar glice 95 4uni
+01/09/2022 21:11 - Digníssima: 01/09
+01/09/2022 21:11 - Digníssima: Café glice 89 4uni
+01/09/2022 21:11 - Digníssima: Almoço glice 219 7uni
+01/09/2022 21:11 - Digníssima: Lanche glice 79 4uni
+01/09/2022 21:11 - Digníssima: Janta glice 126 5uni
 06/09/2022 21:48 - Digníssima: Depois de 84 anos
 06/09/2022 21:48 - Digníssima: Vou ter que pular uns dias pq não vou conseguir ver direito no aparelho
 06/09/2022 21:50 - Maykon Gabriel: HAHAHAHA
 06/09/2022 21:50 - Maykon Gabriel: acontece
 06/09/2022 21:50 - Maykon Gabriel: viajou né
 06/09/2022 21:51 - Digníssima: 05/09
-Café glice 96 4uni
-Almoço glice 138 5uni
-Lanche glice 169 6uni
-Janta glice 62 4uni
-
-06/09
-Café glice 93 4uni
-Almoço glice 150 6uni
-Lanche glice 137 5uni
-Janta glice 77 5uni
+06/09/2022 21:51 - Digníssima: Café glice 96 4uni
+06/09/2022 21:51 - Digníssima: Almoço glice 138 5uni
+06/09/2022 21:51 - Digníssima: Lanche glice 169 6uni
+06/09/2022 21:51 - Digníssima: Janta glice 62 4uni
+06/09/2022 21:51 - Digníssima: 06/09
+06/09/2022 21:51 - Digníssima: Café glice 93 4uni
+06/09/2022 21:51 - Digníssima: Almoço glice 150 6uni
+06/09/2022 21:51 - Digníssima: Lanche glice 137 5uni
+06/09/2022 21:51 - Digníssima: Janta glice 77 5uni
 06/09/2022 21:51 - Digníssima: Sim hahahah
 11/09/2022 21:34 - Digníssima: 11/09
-Café glice 235 9uni
-Almoço glice 124 6uni
-Lanche glice 182 6uni
-Janta glice 164 6uni
+11/09/2022 21:34 - Digníssima: Café glice 235 9uni
+11/09/2022 21:34 - Digníssima: Almoço glice 124 6uni
+11/09/2022 21:34 - Digníssima: Lanche glice 182 6uni
+11/09/2022 21:34 - Digníssima: Janta glice 164 6uni
 13/09/2022 08:11 - Digníssima: 12/09
-Café glice 212 7uni
-Almoço glice 167 6uni
-Lanche glice 218 6uni
-Janta glice 69 4uni
+13/09/2022 08:11 - Digníssima: Café glice 212 7uni
+13/09/2022 08:11 - Digníssima: Almoço glice 167 6uni
+13/09/2022 08:11 - Digníssima: Lanche glice 218 6uni
+13/09/2022 08:11 - Digníssima: Janta glice 69 4uni
 13/09/2022 08:12 - Digníssima: 13/09
-Café glice 217 7uni
+13/09/2022 08:11 - Digníssima: Café glice 217 7uni
 13/09/2022 08:12 - Digníssima: dia 12/09 aumentei para 26 a lantus
 13/09/2022 09:19 - Maykon Gabriel: Tendii
 13/09/2022 09:22 - Digníssima: muito alta a glice de manhã :
@@ -1136,35 +1113,31 @@ Café glice 217 7uni
 13/09/2022 10:39 - Digníssima: vai dar boa
 13/09/2022 14:04 - Digníssima: Almoço glice 196 7uni
 15/09/2022 20:59 - Digníssima: 14/09
-Café glice 172 6uni
-Almoço glice 219 7uni
-Lanche glice 190 6uni
-Janta glice 134 5uni
-
-15/09 
-Café glice 99 5uni
-Almoço glice 70 4uni
-Lanche glice 195 6uni
-Janta glice 149 5uni
+15/09/2022 20:59 - Digníssima: Café glice 172 6uni
+15/09/2022 20:59 - Digníssima: Almoço glice 219 7uni
+15/09/2022 20:59 - Digníssima: Lanche glice 190 6uni
+15/09/2022 20:59 - Digníssima: Janta glice 134 5uni
+15/09/2022 20:59 - Digníssima: 15/09 
+15/09/2022 20:59 - Digníssima: Café glice 99 5uni
+15/09/2022 20:59 - Digníssima: Almoço glice 70 4uni
+15/09/2022 20:59 - Digníssima: Lanche glice 195 6uni
+15/09/2022 20:59 - Digníssima: Janta glice 149 5uni
 18/09/2022 14:18 - Digníssima: 16/09
-Café glice 55 4uni
-Almoço glice 109 5uni
-Lanche glice 133 5uni
-Janta glice 192 6uni
-
-17/09
-Café glice 170 6uni
-Almoço glice 130 8uni
-Lanche glice 129 5uni
-Janta glice 162 6uni
-
-18/09 
-Café glice 91 6uni
-Almoço glice 122 6uni
+18/09/2022 14:18 - Digníssima: Café glice 55 4uni
+18/09/2022 14:18 - Digníssima: Almoço glice 109 5uni
+18/09/2022 14:18 - Digníssima: Lanche glice 133 5uni
+18/09/2022 14:18 - Digníssima: Janta glice 192 6uni
+18/09/2022 14:18 - Digníssima: 17/09
+18/09/2022 14:18 - Digníssima: Café glice 170 6uni
+18/09/2022 14:18 - Digníssima: Almoço glice 130 8uni
+18/09/2022 14:18 - Digníssima: Lanche glice 129 5uni
+18/09/2022 14:18 - Digníssima: Janta glice 162 6uni
+18/09/2022 14:18 - Digníssima: 18/09 
+18/09/2022 14:18 - Digníssima: Café glice 91 6uni
+18/09/2022 14:18 - Digníssima: Almoço glice 122 6uni
 19/09/2022 12:48 - Digníssima: 18/10
-Lanche glice 136 6uni
-Janta glice 100 5uni
-
-19/10
-Café glice 98 5uni
-Almoço glice 160 6uni
+18/09/2022 14:18 - Digníssima: Lanche glice 136 6uni
+18/09/2022 14:18 - Digníssima: Janta glice 100 5uni
+18/09/2022 14:18 - Digníssima: 19/09
+18/09/2022 14:18 - Digníssima: Café glice 98 5uni
+18/09/2022 14:18 - Digníssima: Almoço glice 160 6uni
