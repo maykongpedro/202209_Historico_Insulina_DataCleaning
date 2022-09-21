@@ -115,22 +115,55 @@ tidied_data |>
             string = conteudo_mensagem,
             pattern = "[0-9]+:[0-9]+|[0-9]+h",
             simplify = TRUE
+        ),
+
+        # extrair dia da aplicação
+        data_aplicacao = stringr::str_extract_all(
+            string = conteudo_mensagem,
+            pattern = "[0-9]+/[0-9]+",
+            simplify = TRUE
+        ),
+
+        # extrair qual foi a refeição
+        refeicao = dplyr::case_when(
+
+            # café da manhã
+            stringr::str_detect(
+                string = conteudo_mensagem,
+                pattern = "[cC]af[eé]"
+            ) ~ "Café da manhã",
+
+            # almoço
+            stringr::str_detect(
+                string = conteudo_mensagem,
+                pattern = "[aA]lmo"
+            ) ~ "Almoço",
+
+            # lanche da tarde
+            stringr::str_detect(
+                string = conteudo_mensagem,
+                pattern = "[Ll]anche"
+            ) ~ "Lanche da tarde",
+
+            # janta
+            stringr::str_detect(
+                string = conteudo_mensagem,
+                pattern = "[Jj]ant"
+            ) ~ "Janta",
+
+            TRUE ~ NA_character_
+
+        ),
+
+        # extrair a glicemia
+        glicemia = stringr::str_extract_all(
+            string = conteudo_mensagem,
+            pattern = "[Gg]lice[_ ][0-9]+|[Gg]licemia[_ ][0-9]+",
+            simplify = TRUE
         )
-
-        # extrair refeição da coluna de data
-        # refeicao = stringr::str_extract_all(
-        #     string = data_mensagem,
-        #     pattern = "[:alpha:]+",
-        #     simplify = TRUE
-        # ),
-
-        # apagar letras da coluna de data
-        # data_mensagem = stringr::str_remove_all(
-        #     string = data_mensagem,
-        #     pattern = "[:alpha:]+"
-        # )
 
     ) |>
 
     viewxl::view_in_xl()
+
 
