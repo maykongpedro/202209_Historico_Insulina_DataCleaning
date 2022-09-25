@@ -106,7 +106,7 @@ tidied_data |>
         # extrair doses de insulina
         doses_rapida = stringr::str_extract_all(
             string = conteudo_mensagem,
-            pattern = "[0-9]+uni|[0-9]+u|[0-9]+_u",
+            pattern = "[0-9]+uni|[0-9]+u|[0-9]+_u|[0-9]+n",
             simplify = TRUE
         ),
 
@@ -188,7 +188,7 @@ tidied_data |>
         # remover unidades de insulina aplicada
         conteudo_clean = stringr::str_remove_all(
             string = conteudo_clean,
-            pattern = "[0-9]+uni|[0-9]+u|[0-9]+_u"
+            pattern = "[0-9]+uni|[0-9]+u|[0-9]+_u|[0-9]+n"
         ),
 
         # remover glicemia
@@ -198,9 +198,16 @@ tidied_data |>
         )
 
     ) |>
+    # extrair os números da coluna de conteúdo clena
+    dplyr::mutate(
 
+        glicemia_validar = stringr::str_extract_all(
+            string = conteudo_clean,
+            pattern = "[0-9]+",
+            simplify = TRUE
+        )
 
-
+    ) |>
     viewxl::view_in_xl()
 
 
