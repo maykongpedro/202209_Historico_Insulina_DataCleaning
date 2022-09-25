@@ -52,7 +52,7 @@ tidied_data |> dplyr::glimpse()
 
 # Clear mensage column ----------------------------------------------------
 
-tidied_data |>
+new_columns <- tidied_data |>
     # retirar linhas iniciais
     dplyr::slice(-c(1:4)) |>
     # remover usuário 'Maykon'
@@ -195,19 +195,61 @@ tidied_data |>
         conteudo_clean = stringr::str_remove_all(
             string = conteudo_clean,
             pattern = "[Gg]lice[_ ][0-9]+|[Gg]licemia[_ ][0-9]+|[gG]lice[0-9]+"
+        ),
+
+        # remover data
+        conteudo_clean = stringr::str_remove_all(
+            string = conteudo_clean,
+            pattern = "[0-9]+/[0-9]+"
         )
 
     ) |>
-    # extrair os números da coluna de conteúdo clena
+    # extrair o restante de info da coluna 'conteudo_clean'
     dplyr::mutate(
 
         glicemia_validar = stringr::str_extract_all(
             string = conteudo_clean,
             pattern = "[0-9]+",
-            simplify = TRUE
-        )
+            simplify = FALSE
+        ),
+
+        # adicionar índice para cada linha
+        indice = dplyr::row_number()
 
     ) |>
+    # necessário para poder ajustar a coluna
+    tidyr::unnest(glicemia_validar, keep_empty = TRUE)
+
+
+new_columns |>
+    # analisando os dados da coluna de glicemia_validar foi possível limpar as
+    # infos até a linha 308, antes dessa linha os números não são válidos para
+    # a info de glicemia
+    dplyr::mutate(
+        # remover números que não fazem sentido tmb
+        glicemia_validar_clean = dplyr::case_when(
+            indice <= 309 ~ NA_character_,
+            indice == 386 ~ NA_character_,
+            indice == 508 ~ NA_character_,
+            indice == 511 ~ NA_character_,
+            indice == 733 ~ NA_character_,
+            indice == 850 ~ NA_character_,
+            TRUE ~ glicemia_validar
+        ),
+
+        # extrair apenas os números da coluna glicemia
+        numeros_glicemia = stringr::str_extract_all(
+            string = glicemia,
+            pattern = "[0-9]+"
+        )
+    ) |>
+    dplyr::select(
+        -glicemia,
+        -glicemia_validar,
+        -conteudo_clean
+    ) |>
+    dplyr::glimpse()
+
     viewxl::view_in_xl()
 
 
