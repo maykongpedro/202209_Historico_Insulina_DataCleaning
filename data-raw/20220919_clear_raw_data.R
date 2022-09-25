@@ -106,22 +106,19 @@ new_columns <- tidied_data |>
         # extrair doses de insulina
         doses_rapida = stringr::str_extract_all(
             string = conteudo_mensagem,
-            pattern = "[0-9]+uni|[0-9]+u|[0-9]+_u|[0-9]+n",
-            simplify = TRUE
+            pattern = "[0-9]+uni|[0-9]+u|[0-9]+_u|[0-9]+n"
         ),
 
         # extrair horário
         horario_aplicacao = stringr::str_extract_all(
             string = conteudo_mensagem,
-            pattern = "[0-9]+:[0-9]+|[0-9]+h",
-            simplify = TRUE
+            pattern = "[0-9]+:[0-9]+|[0-9]+h"
         ),
 
         # extrair dia da aplicação
         data_aplicacao = stringr::str_extract_all(
             string = conteudo_mensagem,
-            pattern = "[0-9]+/[0-9]+",
-            simplify = TRUE
+            pattern = "[0-9]+/[0-9]+"
         ),
 
         # extrair qual foi a refeição
@@ -158,12 +155,20 @@ new_columns <- tidied_data |>
         # extrair a glicemia
         glicemia = stringr::str_extract_all(
             string = conteudo_mensagem,
-            pattern = "[Gg]lice[_ ][0-9]+|[Gg]licemia[_ ][0-9]+|[gG]lice[0-9]+",
-            simplify = TRUE
+            pattern = "[Gg]lice[_ ][0-9]+|[Gg]licemia[_ ][0-9]+|[gG]lice[0-9]+"
         )
 
     ) |>
-
+    # corrigir colunas que saíram como output do extract_all
+    tidyr::unnest(
+        cols = c(
+            "doses_rapida",
+            "horario_aplicacao",
+            "data_aplicacao",
+            "glicemia"
+        ),
+        keep_empty = TRUE
+    ) |>
     # remover itens que já identifiquei nas outras colunas
     dplyr::mutate(
 
@@ -222,6 +227,7 @@ new_columns <- tidied_data |>
 
 
 new_columns |>
+    # dplyr::glimpse()
     # analisando os dados da coluna de glicemia_validar foi possível limpar as
     # infos até a linha 308, antes dessa linha os números não são válidos para
     # a info de glicemia
@@ -241,14 +247,34 @@ new_columns |>
         numeros_glicemia = stringr::str_extract_all(
             string = glicemia,
             pattern = "[0-9]+"
+        ),
+
+        # extrair apenas os números da coluna doses_rapida
+        doses = stringr::str_extract_all(
+            string = doses_rapida,
+            pattern = "[0-9]+"
         )
+    ) |>
+    tidyr::unnest(
+        cols = c("numeros_glicemia", "doses"),
+        keep_empty = TRUE
     ) |>
     dplyr::select(
         -glicemia,
         -glicemia_validar,
         -conteudo_clean
     ) |>
-    dplyr::glimpse()
+    dplyr::mutate(
+        glicemia = dplyr::case_when(
+            is.na(numeros_glicemia) ~ glicemia_validar_clean,
+            TRUE ~ numeros_glicemia
+        )
+    ) |>
+    dplyr::select(
+        -numeros_glicemia,
+        -glicemia_validar_clean
+    ) |>
+    # dplyr::glimpse()
 
     viewxl::view_in_xl()
 
