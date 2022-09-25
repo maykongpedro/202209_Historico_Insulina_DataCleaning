@@ -94,6 +94,14 @@ new_columns <- tidied_data |>
             TRUE ~ FALSE
         ),
 
+        # criar coluna para identificar hipoglicemia
+        hipo = dplyr::case_when(
+            stringr::str_detect(
+                string = conteudo_mensagem,
+                pattern = "[Hh]ip") ~ TRUE,
+            TRUE ~ FALSE
+        ),
+
         # remover underlines adicionais
         conteudo_mensagem = stringr::str_remove_all(
             string = conteudo_mensagem,
@@ -227,12 +235,12 @@ new_columns <- tidied_data |>
 
 
 new_columns |>
-    # dplyr::glimpse()
-    # analisando os dados da coluna de glicemia_validar foi possível limpar as
-    # infos até a linha 308, antes dessa linha os números não são válidos para
-    # a info de glicemia
+
     dplyr::mutate(
-        # remover números que não fazem sentido tmb
+        # analisando os dados da coluna de glicemia_validar foi possível limpar as
+        # infos até a linha 308, antes dessa linha os números não são válidos para
+        # a info de glicemia. Também adicionei as linhas onde os números não fazem
+        # sentido
         glicemia_validar_clean = dplyr::case_when(
             indice <= 309 ~ NA_character_,
             indice == 386 ~ NA_character_,
@@ -264,6 +272,7 @@ new_columns |>
         -glicemia_validar,
         -conteudo_clean
     ) |>
+    # consolidar coluna de glicemia
     dplyr::mutate(
         glicemia = dplyr::case_when(
             is.na(numeros_glicemia) ~ glicemia_validar_clean,
@@ -272,7 +281,16 @@ new_columns |>
     ) |>
     dplyr::select(
         -numeros_glicemia,
-        -glicemia_validar_clean
+        -glicemia_validar_clean,
+        -doses_rapida
+    ) |>
+    # ajustar coluna de 'rapida' usando as outras infos
+    dplyr::mutate(
+        rapida = dplyr::case_when(
+            rapida == FALSE & lantus == FALSE &
+                hipo == FALSE & !is.na(horario_aplicacao) ~ TRUE,
+            TRUE ~ rapida
+        )
     ) |>
     # dplyr::glimpse()
 
