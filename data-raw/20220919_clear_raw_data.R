@@ -234,8 +234,9 @@ new_columns <- tidied_data |>
     tidyr::unnest(glicemia_validar, keep_empty = TRUE)
 
 
-new_columns |>
+# Create new columns ------------------------------------------------------
 
+raw_data_etapa2 <- new_columns |>
     dplyr::mutate(
         # analisando os dados da coluna de glicemia_validar foi possível limpar as
         # infos até a linha 308, antes dessa linha os números não são válidos para
@@ -291,9 +292,53 @@ new_columns |>
                 hipo == FALSE & !is.na(horario_aplicacao) ~ TRUE,
             TRUE ~ rapida
         )
-    ) |>
-    # dplyr::glimpse()
+    )
 
-    viewxl::view_in_xl()
+# raw_data_etapa2 |> viewxl::view_in_xl()
+
+
+# Classify hour and adjust types ------------------------------------------
+
+raw_data_etapa2 |> dplyr::glimpse()
+
+raw_data_etapa2 |>
+    dplyr::mutate(
+
+        # converter colunas de número para double
+        doses = as.double(doses),
+        glicemia = as.double(glicemia),
+
+        # transformar horário em período
+        horario_aplicacao = lubridate::hm(horario_aplicacao),
+
+        # ajustar data de aplicação
+        data_aplicacao = dplyr::case_when(
+            is.na(data_aplicacao) ~ data_aplicacao,
+            TRUE ~ stringr::str_c(data_aplicacao, "/2022")
+        ),
+
+        # converter para data
+        data_aplicacao = lubridate::dmy(data_aplicacao)
+
+    ) |>
+    dplyr::glimpse()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
